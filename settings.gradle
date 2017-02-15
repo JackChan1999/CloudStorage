@@ -1,1 +1,1 @@
-include ':app', ':vdisksdk_lib'
+include ':app', ':vdisksdk_lib', ':actionbarsherlock_lib'
