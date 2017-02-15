@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <!--
+    android:layout_width="280dp"
+    android:layout_height="@dimen/vdisk_dir_home_height"
+    -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/DirLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dir_path" >
+
+            <TextView
+                android:id="@+id/tv_vdisk_dir"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:ellipsize="start"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="/"
+                android:textColor="@color/text_color"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="51.0dip"
+                android:background="@color/white" >
+
+                <ListView
+                    android:id="@+id/list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:background="#eee"
+                android:gravity="center_vertical" >
+
+                <Button
+                    android:id="@+id/btn_vdisk_dir_select"
+                    android:layout_width="130dp"
+                    android:layout_height="33dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_blue"
+                    android:text="@string/label_weipan_directory_select"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <View
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/btn_vdisk_dir_make_dir"
+                    android:layout_width="130dp"
+                    android:layout_height="33dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_light_gray"
+                    android:text="@string/label_weipan_category_create_foloder"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleInverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="visible" />
+    </FrameLayout>
+
+</FrameLayout>

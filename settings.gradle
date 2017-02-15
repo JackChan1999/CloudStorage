@@ -1,0 +1,1 @@
+include ':app', ':vdisksdk_lib'

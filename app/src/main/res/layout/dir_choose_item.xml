@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:padding="5dp"
+    >
+
+    <TextView
+        android:id="@+id/fileDirName"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:ellipsize="middle"
+        android:singleLine="true"
+        android:text="folder"
+        android:textColor="#ff393939"
+        android:textSize="15sp"
+        android:layout_toRightOf="@+id/file_icon"
+    />
+
+    <ImageView
+        android:id="@+id/file_icon"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/directory_icon" />
+
+</RelativeLayout>

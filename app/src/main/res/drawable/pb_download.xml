@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 背景 -->
+    <item android:id="@android:id/background">
+        <nine-patch android:src="@drawable/pb_download_progress_bg" />
+    </item>
+    <!-- 第二进度条 -->
+    <!-- <item android:id="@android:id/secondaryProgress"> -->
+    <!-- <clip> -->
+    <!-- <nine-patch android:src="@drawable/media_seekbar_second" /> -->
+    <!-- </clip> -->
+    <!-- </item> -->
+    <!-- 第一进度条 -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <nine-patch android:src="@drawable/pb_download_progress" />
+        </clip>
+    </item>
+
+</layer-list>

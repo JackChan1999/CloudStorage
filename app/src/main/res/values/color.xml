@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="list_background_color">#ffffffff</color>
+    <color name="cache_hint_color">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="upload_cate_text">#2276ba</color>
+    <color name="green">#0cc054</color>
+    <color name="gray">#d0d0d0</color>
+    <color name="gray_dark">#888</color>
+    <color name="divider">#BEBEBE</color>
+    <color name="no_back_color">#00ffffff</color>
+    <color name="gray_color">#2970c5</color>
+    <color name="text_color">#3c4969</color>
+    <color name="text_disable_color">#565656</color>
+    <color name="share_text_color">#818283</color>
+    <color name="share_bg_color">#f0f0f0</color> <!-- e9f0fa -->
+    <color name="upload_task_bg_color">#f7f7f7</color> <!-- e9f0fa -->
+    <color name="upload_text_color">#ffffff</color>
+    <color name="upload_text_color_d">#000000</color>
+    <color name="circle_page_color_s">#979897</color>
+    <color name="circle_page_color_d">#CBCBCB</color>
+    <color name="contact_text_color">#788395</color>
+    <color name="hot_top_color">#FFF7C8</color>
+    <color name="home_text_color">#343839</color>
+    <color name="transparent">#00000000</color>
+    <color name="preview_text_color">#656565</color>
+    <color name="local_no_file_text_color">#BDBDBD</color>
+    <color name="hotfile_cate_list_child_bg">#e2e0e0</color>
+    <color name="popup_edit_bg">#ee252424</color>
+    <color name="tab_text_color_d">#8f8f8f</color>
+    <color name="passcode_lock_prompt_text">#ff4f4f4f</color>
+    <color name="red">#ffd84545</color>
+    <color name="text_gray">#ffaaaaaa</color>
+    <color name="numeric_text_prompt_text">#ff5c5c5c</color>
+
+</resources>

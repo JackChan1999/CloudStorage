@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        xmlns:cloudstorage="http://schemas.android.com/apk/res/com.itcast.cloudstorage"
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#fff"
+        android:focusable="true"
+        cloudstorage:adapterViewBackground="@color/white"
+        cloudstorage:headerTextColor="@color/black" />
+
+    <View
+        android:id="@+id/view_tag"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#eee"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/rl_upload_choose_dir"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/btn_light_gray" >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/option_folder_icon" />
+
+            <TextView
+                android:id="@+id/tv_dir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/textView1"
+                android:ellipsize="end"
+                android:paddingLeft="10dp"
+                android:singleLine="true"
+                android:text="path"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/imageView"
+                android:paddingLeft="5dp"
+                android:text="上传目录:" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp" >
+
+            <Button
+                android:id="@+id/btn_select"
+                android:layout_width="120dp"
+                android:layout_height="33dp"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/btn_blue"
+                android:text="@string/all_select_button"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/btn_upload"
+                android:layout_width="120dp"
+                android:layout_height="33dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/btn_blue"
+                android:text="@string/upload_bottom_label"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>
